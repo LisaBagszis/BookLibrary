@@ -45,12 +45,18 @@ public class BookRepo {
     }
 
     public void deleteBook(String isbn) {
-        for (Book book : books) {
-            if (book.isbn().equals(isbn)) {
-                books.remove(book);
-
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i).isbn().equals(isbn)) {
+                books.remove(i);
             }
         }
+      /*  for (Book book : books) {
+            if (book.isbn().equals(isbn)) {
+                books.remove(book);
+                System.out.println(book.isbn());
+
+            }
+        }*/
 
     }
 }

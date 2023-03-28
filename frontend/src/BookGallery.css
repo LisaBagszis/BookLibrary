@@ -1,0 +1,13 @@
+.book-gallery {
+
+}
+.book-gallery-column {
+    align-items: flex-end;
+}
+.book-gallery-container {
+    display: flex;
+
+}
+hr {
+    width: 80%;
+}
