@@ -50,13 +50,7 @@ public class BookRepo {
                 books.remove(i);
             }
         }
-      /*  for (Book book : books) {
-            if (book.isbn().equals(isbn)) {
-                books.remove(book);
-                System.out.println(book.isbn());
 
-            }
-        }*/
 
     }
 }

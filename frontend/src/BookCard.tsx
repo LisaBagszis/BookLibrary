@@ -19,10 +19,9 @@ export default function BookCard(props: BookCardProps) {
     }
     return (
         <Card variant="outlined" className="todoCard">
-            <Typography variant="subtitle1" color="black"> {props.book.titel}</Typography>
-            <Typography variant="subtitle1" color="black"> {props.book.autor}</Typography>
-            <Typography variant="subtitle1" color="black"> {props.book.isbn}</Typography>
-            <Typography variant="subtitle1" color="black"> {props.book.bookType}</Typography>
+            <Typography variant="subtitle1" color="black" > Titel: {props.book.titel}</Typography>
+            <Typography variant="subtitle1" color="black"> Autor: {props.book.autor}</Typography>
+            <Typography variant="subtitle1" color="black"> ISBN: {props.book.isbn}</Typography>
             <Button variant="outlined" color="secondary" onClick={onDeleteClick}>Delete</Button>
 
         </Card>
